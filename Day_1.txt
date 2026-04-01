@@ -1,0 +1,15 @@
+Python installation & pyenv
+The REPL and IPython
+IDE setup (VS Code / PyCharm)
+Running scripts, shebang lines, __main__
+PEPs and PEP 8 style guide
+
+
+New Terms
+
+Shell shim
+
+bpython
+
+REPL
+
