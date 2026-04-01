@@ -1,0 +1,5 @@
+Process lifecycle: fork(), exec(), wait(), exit()
+Process Control Block (PCB) and process states
+Copy-on-Write (COW) memory optimization
+Zombie & orphan processes — detection and prevention
+CFS scheduler — red-black tree, nice values, vruntime
