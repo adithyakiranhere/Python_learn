@@ -1,0 +1,3 @@
+Practice: Install Python, Hello World
+Practice: REPL as calculator
+Practice: Pyenv multi-version setup
