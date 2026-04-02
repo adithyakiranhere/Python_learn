@@ -13,3 +13,35 @@ bpython
 
 REPL
 
+
+python3 -m script ---- runs as a module
+
+What is a Shebang?
+A shebang (also called hashbang) is the first line of a script that tells the operating system which interpreter to use to execute the file.
+
+#!/usr/bin/env python3
+```
+
+The name comes from:
+```
+#  →  hash
+!  →  bang (! is called bang in Unix culture)
+```
+
+Combined: **hash-bang** → **shebang.**
+
+### How the OS Reads It
+
+When you type `./script.py`, the Linux kernel itself handles this — before any shell is involved:
+```
+You type:  ./script.py
+                ↓
+Kernel reads first 2 bytes of file
+                ↓
+Sees: #! (magic bytes 0x23 0x21)
+                ↓
+Reads rest of first line: /usr/bin/env python3
+                ↓
+Kernel executes: /usr/bin/env python3 ./script.py
+                ↓
+Python runs your script
