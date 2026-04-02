@@ -1,0 +1,3 @@
+CFS scheduler — red-black tree, nice values, vruntime
+Practice: Fork→exec→wait in C, observe with pstree
+Practice: Create zombie, reap with SIGCHLD
