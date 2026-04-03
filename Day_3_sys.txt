@@ -1,0 +1,2 @@
+Practice: Fork→exec→wait in C, observe with pstree
+Practice: Create zombie, reap with SIGCHLD
