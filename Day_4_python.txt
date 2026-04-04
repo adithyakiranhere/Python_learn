@@ -1,0 +1,3 @@
+__name__ = __main__ 
+file name is called as file
+function name if called as module
