@@ -1,6 +1,8 @@
 a=5
 b=1.1
 c="string.."
+d=True
 print(type(a))
 print(type(b))
 print(type(c))
+print(type(d))
