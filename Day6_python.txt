@@ -1,0 +1,5 @@
+int (arbitrary precision)
+float (IEEE 754)
+complex numbers
+Booleans and truthiness
+None — Python's null
